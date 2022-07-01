@@ -1,0 +1,38 @@
+package com.blued.android.module.shortvideo.utils;
+
+import com.qiniu.pili.droid.shortvideo.PLCameraSetting;
+import com.qiniu.pili.droid.shortvideo.PLVideoEncodeSetting;
+
+public class VideoConfigData {
+  public static final Boolean a = Boolean.valueOf(false);
+  
+  public static final PLCameraSetting.CAMERA_PREVIEW_SIZE_RATIO[] b = new PLCameraSetting.CAMERA_PREVIEW_SIZE_RATIO[] { PLCameraSetting.CAMERA_PREVIEW_SIZE_RATIO.RATIO_4_3, PLCameraSetting.CAMERA_PREVIEW_SIZE_RATIO.RATIO_16_9 };
+  
+  public static final PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL[] c = new PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL[] { PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL.PREVIEW_SIZE_LEVEL_240P, PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL.PREVIEW_SIZE_LEVEL_360P, PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL.PREVIEW_SIZE_LEVEL_480P, PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL.PREVIEW_SIZE_LEVEL_720P, PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL.PREVIEW_SIZE_LEVEL_960P, PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL.PREVIEW_SIZE_LEVEL_1080P, PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL.PREVIEW_SIZE_LEVEL_1200P };
+  
+  public static final PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL[] d = new PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL[] { 
+      PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_240P_1, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_240P_2, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_352P_1, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_352P_2, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_360P_1, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_360P_2, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_360P_3, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_480P_1, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_480P_2, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_480P_3, 
+      PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_544P_1, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_544P_2, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_720P_1, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_720P_2, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_720P_3, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_1088P_1, PLVideoEncodeSetting.VIDEO_ENCODING_SIZE_LEVEL.VIDEO_ENCODING_SIZE_LEVEL_1088P_2 };
+  
+  public static final int[] e = new int[] { 500000, 800000, 1000000, 1200000, 1600000, 2000000, 2800000, 3000000, 4000000, 8000000 };
+  
+  public static final double[] f = new double[] { 0.25D, 0.5D, 1.0D, 2.0D, 4.0D };
+  
+  public static PLCameraSetting.CAMERA_PREVIEW_SIZE_RATIO a() {
+    return b[1];
+  }
+  
+  public static PLCameraSetting.CAMERA_PREVIEW_SIZE_LEVEL b() {
+    return c[3];
+  }
+  
+  public static int c() {
+    return e[6];
+  }
+}
+
+
+/* Location:              D:\code\BluedHook\classes.dex\com.soft.blued7575468-dex2jar.jar!\com\blued\android\module\shortvide\\utils\VideoConfigData.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */

@@ -1,0 +1,33 @@
+package com.soft.blued.customview.emoji.category;
+
+import com.soft.blued.customview.emoji.manager.Emoji;
+import com.soft.blued.customview.emoji.manager.EmojiCategory;
+
+public final class NatureCategory implements EmojiCategory {
+  public static final Emoji[] a = new Emoji[] { 
+      new Emoji(128054, 2131231727), new Emoji(128049, 2131231722), new Emoji(128045, 2131231718), new Emoji(128057, 2131231730), new Emoji(128048, 2131231721), new Emoji(129418, 2131232127), new Emoji(128059, 2131231732), new Emoji(128060, 2131231733), new Emoji(128040, 2131231713), new Emoji(128047, 2131231720), 
+      new Emoji(129409, 2131232118), new Emoji(128046, 2131231719), new Emoji(128055, 2131231728), new Emoji(128061, 2131231734), new Emoji(128056, 2131231729), new Emoji(128053, 2131231726), new Emoji(128584, 2131232002), new Emoji(128585, 2131232003), new Emoji(128586, 2131232004), new Emoji(128018, 2131231691), 
+      new Emoji(128020, 2131231693), new Emoji(128039, 2131231712), new Emoji(128038, 2131231711), new Emoji(128036, 2131231709), new Emoji(128035, 2131231708), new Emoji(128037, 2131231710), new Emoji(129414, 2131232123), new Emoji(129413, 2131232122), new Emoji(129417, 2131232126), new Emoji(129415, 2131232124), 
+      new Emoji(128058, 2131231731), new Emoji(128023, 2131231696), new Emoji(128052, 2131231725), new Emoji(129412, 2131232121), new Emoji(128029, 2131231702), new Emoji(128027, 2131231700), new Emoji(129419, 2131232128), new Emoji(128012, 2131231685), new Emoji(128026, 2131231699), new Emoji(128030, 2131231703), 
+      new Emoji(128028, 2131231701), new Emoji(128375, 2131231920), new Emoji(128376, 2131231921), new Emoji(128034, 2131231707), new Emoji(128013, 2131231686), new Emoji(129422, 2131232131), new Emoji(129410, 2131232119), new Emoji(129408, 2131232117), new Emoji(129425, 2131232134), new Emoji(128025, 2131231698), 
+      new Emoji(129424, 2131232133), new Emoji(128032, 2131231705), new Emoji(128031, 2131231704), new Emoji(128033, 2131231706), new Emoji(128044, 2131231717), new Emoji(129416, 2131232125), new Emoji(128051, 2131231724), new Emoji(128011, 2131231684), new Emoji(128010, 2131231683), new Emoji(128006, 2131231679), 
+      new Emoji(128005, 2131231678), new Emoji(128003, 2131231676), new Emoji(128002, 2131231675), new Emoji(128004, 2131231677), new Emoji(129420, 2131232129), new Emoji(128042, 2131231715), new Emoji(128043, 2131231716), new Emoji(128024, 2131231697), new Emoji(129423, 2131232132), new Emoji(129421, 2131232130), 
+      new Emoji(128014, 2131231687), new Emoji(128022, 2131231695), new Emoji(128016, 2131231689), new Emoji(128015, 2131231688), new Emoji(128017, 2131231690), new Emoji(128021, 2131231694), new Emoji(128041, 2131231714), new Emoji(128008, 2131231681), new Emoji(128019, 2131231692), new Emoji(129411, 2131232120), 
+      new Emoji(128007, 2131231680), new Emoji(128001, 2131231674), new Emoji(128000, 2131231673), new Emoji(128063, 2131231736), new Emoji(128062, 2131231735), new Emoji(128009, 2131231682), new Emoji(128050, 2131231723), new Emoji(127797, 2131231571), new Emoji(127876, 2131231650), new Emoji(127794, 2131231568), 
+      new Emoji(127795, 2131231569), new Emoji(127796, 2131231570), new Emoji(127793, 2131231567), new Emoji(127807, 2131231581), new Emoji(9752, 2131232154), new Emoji(127808, 2131231582), new Emoji(127885, 2131231659), new Emoji(127883, 2131231657), new Emoji(127811, 2131231585), new Emoji(127810, 2131231584), 
+      new Emoji(127809, 2131231583), new Emoji(127812, 2131231586), new Emoji(127806, 2131231580), new Emoji(128144, 2131231887), new Emoji(127799, 2131231573), new Emoji(127801, 2131231575), new Emoji(129344, 2131232091), new Emoji(127803, 2131231577), new Emoji(127804, 2131231578), new Emoji(127800, 2131231574), 
+      new Emoji(127802, 2131231576), new Emoji(127758, 2131231535), new Emoji(127765, 2131231541), new Emoji(127766, 2131231542), new Emoji(127767, 2131231543), new Emoji(127768, 2131231544), new Emoji(127761, 2131231537), new Emoji(127762, 2131231538), new Emoji(127763, 2131231539), new Emoji(127764, 2131231540), 
+      new Emoji(127770, 2131231546), new Emoji(127773, 2131231549), new Emoji(127774, 2131231550), new Emoji(127771, 2131231547), new Emoji(127772, 2131231548), new Emoji(127769, 2131231545), new Emoji(127775, 2131231551), new Emoji(9732, 2131232150), new Emoji(9728, 2131232146), new Emoji(127780, 2131231554), 
+      new Emoji(127781, 2131231555), new Emoji(127782, 2131231556), new Emoji(127752, 2131231530), new Emoji(9729, 2131232147), new Emoji(127783, 2131231557), new Emoji(127785, 2131231559), new Emoji(127784, 2131231558), new Emoji(9731, 2131232149), new Emoji(127788, 2131231562), new Emoji(127786, 2131231560), 
+      new Emoji(127787, 2131231561), new Emoji(127754, 2131231532), new Emoji(9748, 2131232152) };
+  
+  public Emoji[] a() {
+    return a;
+  }
+}
+
+
+/* Location:              D:\code\BluedHook\classes.dex\com.soft.blued9136188-dex2jar.jar!\com\soft\blued\customview\emoji\category\NatureCategory.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */
